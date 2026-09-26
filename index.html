@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05070b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="A.T.L.A.S">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<title>A.T.L.A.S</title>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="orb"><span>A</span></div>
+  <div class="title"><b>A.T.L.A.S</b><small id="status">Initialisation…</small></div>
+  <button id="reset" title="Effacer la mémoire">↻</button>
+</header>
+<div id="progress" class="progress"></div>
+<main id="chat"></main>
+<footer>
+  <button id="voice" class="round" title="Parler">🎙️</button>
+  <textarea id="input" rows="1" placeholder="Parle à A.T.L.A.S…"></textarea>
+  <button id="send" class="send">➤</button>
+</footer>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
